@@ -14,7 +14,7 @@ const winCombos=[
   [2,4,6],
 ]
 export default function Home() {
-  const [cells,Setcells]=useState(["","","","","","","","",""]);
+  const [cells,Setcells]=useState(Array(9).fill(""));
   const [shape,setShape]=useState("circle");
   const [winMessage,setWinMEssage]=useState("");
   
